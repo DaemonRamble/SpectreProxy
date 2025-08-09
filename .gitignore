@@ -70,4 +70,5 @@ build/
 
 # Temporary files
 *.tmp
-*.temp
+*.temp# Database files
+*.db

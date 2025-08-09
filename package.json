@@ -1,0 +1,13 @@
+{
+  "name": "spectreproxy",
+  "version": "1.0.0",
+  "description": "Cloudflare Workers proxy with privacy protection",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "dev": "node index.js"
+  },
+  "dependencies": {
+    "better-sqlite3": "^12.2.0"
+  }
+}
