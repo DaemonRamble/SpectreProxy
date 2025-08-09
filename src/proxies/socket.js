@@ -211,6 +211,7 @@ export class SocketProxy extends BaseProxy {
     return error.message && (
       error.message.includes("A network issue was detected") ||
       error.message.includes("Network connection failure") ||
+      error.message.includes("Network connection lost") ||
       error.message.includes("connection failed") ||
       error.message.includes("timed out") ||
       error.message.includes("Stream was cancelled") ||
